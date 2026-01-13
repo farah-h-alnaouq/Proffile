@@ -9,18 +9,19 @@
         android:id="@+id/btn_back"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
         android:padding="5dp"
-        android:src="@android:drawable/ic_menu_revert"
+        android:src="@drawable/outline_arrow_back_24"
         app:tint="@color/black" />
 
     <ImageView
         android:id="@+id/btn_edit_rel"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_margin="16dp"
-        android:src="@android:drawable/ic_menu_edit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/outline_edit_square_24"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         app:tint="@color/black" />
@@ -113,14 +114,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/layout_stats_rel"
-        android:layout_marginTop="15dp"
-        android:padding="12dp"
-        android:layout_marginHorizontal="16dp">
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:layout_marginHorizontal="20dp">
         <ImageView
             android:id="@+id/icon1"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:src="@android:drawable/ic_menu_myplaces"
+            android:src="@drawable/baseline_person_24"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true" />
         <TextView
@@ -139,13 +140,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/item1"
         android:layout_marginTop="5dp"
-        android:padding="12dp"
-        android:layout_marginHorizontal="16dp">
+        android:padding="8dp"
+        android:layout_marginHorizontal="20dp">
         <ImageView
             android:id="@+id/icon2"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:src="@android:drawable/ic_dialog_info"
+            android:src="@drawable/outline_add_shopping_cart_24"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true" />
         <TextView
@@ -164,13 +165,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/item2"
         android:layout_marginTop="5dp"
-        android:padding="12dp"
-        android:layout_marginHorizontal="16dp">
+        android:padding="8dp"
+        android:layout_marginHorizontal="20dp">
         <ImageView
             android:id="@+id/icon3"
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:src="@android:drawable/btn_star_big_on"/>
+            android:src="@drawable/outline_favorite_24"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -188,13 +189,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/item3"
         android:layout_marginTop="5dp"
-        android:padding="12dp"
-        android:layout_marginHorizontal="16dp">
+        android:padding="8dp"
+        android:layout_marginHorizontal="20dp">
         <ImageView
             android:id="@+id/icon4"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:src="@android:drawable/ic_menu_view"
+            android:src="@drawable/outline_payments_24"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true" />
         <TextView
@@ -213,13 +214,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/item4"
         android:layout_marginTop="5dp"
-        android:padding="12dp"
-        android:layout_marginHorizontal="16dp">
+        android:padding="8dp"
+        android:layout_marginHorizontal="20dp">
         <ImageView
             android:id="@+id/icon5"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:src="@android:drawable/ic_lock_power_off"
+            android:src="@drawable/outline_recommend_24"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true" />
         <TextView
@@ -238,13 +239,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/item5"
         android:layout_marginTop="5dp"
-        android:padding="12dp"
-        android:layout_marginHorizontal="16dp">
+        android:padding="8dp"
+        android:layout_marginHorizontal="20dp">
         <ImageView
             android:id="@+id/icon6"
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:src="@android:drawable/ic_dialog_map"
+            android:src="@drawable/outline_add_location_24"
              />
         <TextView
             android:layout_width="wrap_content"
@@ -262,13 +263,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/item6"
         android:layout_marginTop="5dp"
-        android:padding="12dp"
-        android:layout_marginHorizontal="16dp">
+        android:padding="8dp"
+        android:layout_marginHorizontal="20dp">
         <ImageView
             android:id="@+id/icon7"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:src="@android:drawable/ic_lock_lock"
+            android:src="@drawable/outline_logout_24"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true" />
         <TextView
@@ -283,7 +284,7 @@
     <LinearLayout
         android:id="@+id/nav_bar_rel"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="100dp"
         android:layout_alignParentBottom="true"
         android:background="#FFFFFF"
         android:elevation="10dp"
@@ -296,7 +297,7 @@
             android:layout_height="28dp"
             android:layout_weight="1"
             android:layout_gravity="center"
-            android:src="@android:drawable/ic_menu_today"
+            android:src="@drawable/outline_garage_home_24"
             android:alpha="0.4" />
 
         <ImageView
@@ -304,7 +305,7 @@
             android:layout_height="28dp"
             android:layout_weight="1"
             android:layout_gravity="center"
-            android:src="@android:drawable/ic_menu_search"
+            android:src="@drawable/outline_circle_notifications_24"
             android:alpha="0.4" />
 
         <ImageView
@@ -312,7 +313,7 @@
             android:layout_height="28dp"
             android:layout_weight="1"
             android:layout_gravity="center"
-            android:src="@android:drawable/ic_menu_view"
+            android:src="@drawable/outline_add_shopping_cart_24"
             android:alpha="0.4" />
 
         <LinearLayout
